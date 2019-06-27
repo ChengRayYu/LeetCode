@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */; };
+		7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */; };
+		7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */; };
 		71B4D32122C469D0005EBCD2 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4D31722C469D0005EBCD2 /* LeetCode.framework */; };
 		71B4D32822C469D0005EBCD2 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B4D31A22C469D0005EBCD2 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71B4D33222C46A1B005EBCD2 /* L001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_TwoSum.swift */; };
+		71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L007_Reverse Integer.swift"; sourceTree = "<group>"; };
+		7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L009_Palindrome Number.swift"; sourceTree = "<group>"; };
+		7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L012_Integer to Roman.swift"; sourceTree = "<group>"; };
 		71B4D31722C469D0005EBCD2 /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D31A22C469D0005EBCD2 /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		71B4D31B22C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B4D32022C469D0005EBCD2 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D32722C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B4D33122C46A1B005EBCD2 /* L001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L001_TwoSum.swift; sourceTree = "<group>"; };
+		71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L001_Two Sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				71B4D32722C469D0005EBCD2 /* Info.plist */,
-				71B4D33122C46A1B005EBCD2 /* L001_TwoSum.swift */,
+				71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */,
+				7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */,
+				7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */,
+				7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -202,7 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B4D33222C46A1B005EBCD2 /* L001_TwoSum.swift in Sources */,
+				71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */,
+				7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */,
+				7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */,
+				7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
