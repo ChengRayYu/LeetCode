@@ -14,6 +14,9 @@
 		7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */; };
 		7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */; };
 		7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */; };
+		71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBD922C5217F00338690 /* L704_Binary Search.swift */; };
+		71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDB22C5285400338690 /* L268_Missing Number.swift */; };
+		71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDD22C5378D00338690 /* L136_Single Number.swift */; };
 		71B4D32122C469D0005EBCD2 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4D31722C469D0005EBCD2 /* LeetCode.framework */; };
 		71B4D32822C469D0005EBCD2 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B4D31A22C469D0005EBCD2 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */; };
@@ -37,6 +40,9 @@
 		7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L014_Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L020_Valid Parantheses.swift"; sourceTree = "<group>"; };
 		7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L167_Two Sum_Sorted Input.swift"; sourceTree = "<group>"; };
+		71A0FBD922C5217F00338690 /* L704_Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L704_Binary Search.swift"; sourceTree = "<group>"; };
+		71A0FBDB22C5285400338690 /* L268_Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L268_Missing Number.swift"; sourceTree = "<group>"; };
+		71A0FBDD22C5378D00338690 /* L136_Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L136_Single Number.swift"; sourceTree = "<group>"; };
 		71B4D31722C469D0005EBCD2 /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D31A22C469D0005EBCD2 /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		71B4D31B22C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */,
 				7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */,
 				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
+				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
+				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
+				71A0FBDD22C5378D00338690 /* L136_Single Number.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -223,11 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
 				71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */,
 				7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */,
 				7110F98722C4737B00ADC106 /* L013_Roman to Integer.swift in Sources */,
+				71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */,
 				7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */,
+				71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */,
 				7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */,
 				7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */,
 				7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */,
