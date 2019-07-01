@@ -14,6 +14,8 @@
 		7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */; };
 		7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */; };
 		7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */; };
+		71864FA722CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71864FA622CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift */; };
+		71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71864FA822CA7C45005566D1 /* L027_Remove Element.swift */; };
 		71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBD922C5217F00338690 /* L704_Binary Search.swift */; };
 		71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDB22C5285400338690 /* L268_Missing Number.swift */; };
 		71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDD22C5378D00338690 /* L136_Single Number.swift */; };
@@ -41,6 +43,8 @@
 		7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L014_Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L020_Valid Parantheses.swift"; sourceTree = "<group>"; };
 		7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L167_Two Sum_Sorted Input.swift"; sourceTree = "<group>"; };
+		71864FA622CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L026_Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		71864FA822CA7C45005566D1 /* L027_Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L027_Remove Element.swift"; sourceTree = "<group>"; };
 		71A0FBD922C5217F00338690 /* L704_Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L704_Binary Search.swift"; sourceTree = "<group>"; };
 		71A0FBDB22C5285400338690 /* L268_Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L268_Missing Number.swift"; sourceTree = "<group>"; };
 		71A0FBDD22C5378D00338690 /* L136_Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L136_Single Number.swift"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */,
 				7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */,
 				71A0FBDF22C6719400338690 /* L021_Merge Two Sorted Lists.swift */,
+				71864FA622CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift */,
+				71864FA822CA7C45005566D1 /* L027_Remove Element.swift */,
 				71A0FBDD22C5378D00338690 /* L136_Single Number.swift */,
 				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
 				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
@@ -235,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
+				71864FA722CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift in Sources */,
 				71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */,
 				7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */,
 				71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */,
