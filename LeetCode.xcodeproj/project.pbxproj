@@ -25,6 +25,7 @@
 		719A2E3422CE54B200A635BE /* L066_Plus One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E3322CE54B200A635BE /* L066_Plus One.swift */; };
 		719A2E3622CE5DB000A635BE /* L067_Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E3522CE5DB000A635BE /* L067_Add Binary.swift */; };
 		719A2E3822CE73E100A635BE /* L069_Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E3722CE73E100A635BE /* L069_Square Root.swift */; };
+		719A2E3A22CE8F4800A635BE /* L070_Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E3922CE8F4800A635BE /* L070_Climbing Stairs.swift */; };
 		71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBD922C5217F00338690 /* L704_Binary Search.swift */; };
 		71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDB22C5285400338690 /* L268_Missing Number.swift */; };
 		71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDD22C5378D00338690 /* L136_Single Number.swift */; };
@@ -63,6 +64,7 @@
 		719A2E3322CE54B200A635BE /* L066_Plus One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L066_Plus One.swift"; sourceTree = "<group>"; };
 		719A2E3522CE5DB000A635BE /* L067_Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L067_Add Binary.swift"; sourceTree = "<group>"; };
 		719A2E3722CE73E100A635BE /* L069_Square Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L069_Square Root.swift"; sourceTree = "<group>"; };
+		719A2E3922CE8F4800A635BE /* L070_Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L070_Climbing Stairs.swift"; sourceTree = "<group>"; };
 		71A0FBD922C5217F00338690 /* L704_Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L704_Binary Search.swift"; sourceTree = "<group>"; };
 		71A0FBDB22C5285400338690 /* L268_Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L268_Missing Number.swift"; sourceTree = "<group>"; };
 		71A0FBDD22C5378D00338690 /* L136_Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L136_Single Number.swift"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				719A2E3322CE54B200A635BE /* L066_Plus One.swift */,
 				719A2E3522CE5DB000A635BE /* L067_Add Binary.swift */,
 				719A2E3722CE73E100A635BE /* L069_Square Root.swift */,
+				719A2E3922CE8F4800A635BE /* L070_Climbing Stairs.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */,
+				719A2E3A22CE8F4800A635BE /* L070_Climbing Stairs.swift in Sources */,
 				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
 				719A2E2C22CC554400A635BE /* L035_Search Insert Position.swift in Sources */,
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
