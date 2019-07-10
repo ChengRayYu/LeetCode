@@ -11,49 +11,9 @@
 
 import XCTest
 
-class ListNode {
-    
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-    
-    init?(from list: [Int]?) {
-        guard var l = list, !l.isEmpty else {
-            return nil
-        }
-        self.val = l.removeFirst()
-        var current: ListNode? = nil
-        
-        while l.count > 0 {
-            let value = l.removeFirst()
-            let node = ListNode(value)
-
-            if self.next == nil {
-                current = node
-                self.next = current
-            } else {
-                current?.next = node
-            }
-        }
-    }
-    
-    func obtainListValues() -> [Int] {
-        var result: [Int] = []
-        var current: ListNode? = self
-        
-        while let valule = current?.val {
-            result.append(valule)
-            current = current?.next
-        }
-        return result
-    }
-}
 
 class L021_Merge_Two_Sorted_Lists: XCTestCase {
-
+    
     // iterative
     func a_mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
 
@@ -90,44 +50,32 @@ class L021_Merge_Two_Sorted_Lists: XCTestCase {
             return l2
         }
     }
-
-    func testListNodeInit() {
-        let list = [1, 2, 3]
-        let node = ListNode(from: list)
-        XCTAssertNotNil(node)
-    }
-
-    func testListNodeValues() {
-        let list = [1, 2, 3]
-        let node = ListNode(from: list)
-        XCTAssertTrue(list == node!.obtainListValues())
-    }
     
     func testA1() {
-        let one = ListNode(from: [1, 2, 4])
-        let two = ListNode(from: [1, 3, 4])
+        let one = ListNode.from([1, 2, 4])
+        let two = ListNode.from([1, 3, 4])
         let output = a_mergeTwoLists(one, two)
-        XCTAssertTrue(output!.obtainListValues() == [1, 1, 2, 3, 4, 4])
+        XCTAssertTrue(output?.values() == [1, 1, 2, 3, 4, 4])
     }
     
     func testA2() {
-        let one = ListNode(from: [2, 4, 6])
-        let two = ListNode(from: [3, 4, 5])
+        let one = ListNode.from([2, 4, 6])
+        let two = ListNode.from([3, 4, 5])
         let output = a_mergeTwoLists(one, two)
-        XCTAssertTrue(output!.obtainListValues() == [2, 3, 4, 4, 5, 6])
+        XCTAssertTrue(output?.values() == [2, 3, 4, 4, 5, 6])
     }
     
     func testB1() {
-        let one = ListNode(from: [1, 2, 4])
-        let two = ListNode(from: [1, 3, 4])
+        let one = ListNode.from([1, 2, 4])
+        let two = ListNode.from([1, 3, 4])
         let output = b_mergeTwoLists(one, two)
-        XCTAssertTrue(output!.obtainListValues() == [1, 1, 2, 3, 4, 4])
+        XCTAssertTrue(output?.values() == [1, 1, 2, 3, 4, 4])
     }
     
     func testB2() {
-        let one = ListNode(from: [2, 4, 6])
-        let two = ListNode(from: [3, 4, 5])
+        let one = ListNode.from([2, 4, 6])
+        let two = ListNode.from([3, 4, 5])
         let output = b_mergeTwoLists(one, two)
-        XCTAssertTrue(output!.obtainListValues() == [2, 3, 4, 4, 5, 6])
+        XCTAssertTrue(output?.values() == [2, 3, 4, 4, 5, 6])
     }
 }
