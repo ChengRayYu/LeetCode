@@ -55,14 +55,89 @@ class TreeNode {
         return nil
     }
     */
+    
+    // BFS traversal
+    static func breathFirstSearch(for node: TreeNode?) {
+        
+        guard let node = node else {
+            print("Invalid Tree")
+            return
+        }
+        var queue: [TreeNode?] = [node]
+        var result = ""
+        while !queue.isEmpty {
+            let current = queue.removeFirst()
+            result.append("\(current!.val) ")
+            
+            if let left = current?.left {
+                queue.append(left)
+            }
+            if let right = current?.right {
+                queue.append(right)
+            }
+        }
+        print(result)
+    }
+    
+    static func depthFirstSearch(for node: TreeNode?) {
+     
+        guard let node = node else {
+            print("Invalid Tree")
+            return
+        }
+        var stack: [TreeNode?] = [node]
+        var result = ""
+        while !stack.isEmpty {
+            let current = stack.removeLast()
+            result.append("\(current!.val) ")
+
+            if let right = current?.right {
+                stack.append(right)
+            }
+            if let left = current?.left {
+                stack.append(left)
+            }
+        }
+        print(result)
+    }
 }
 
 class TreeNodeTests: XCTestCase {
     
-    func testTreeCreation() {
+    func testTreeCreation1() {
         let one = TreeNode.from([1, 2, 3, 4, 5, 6])
         XCTAssertTrue(one?.left?.left?.val == 4)
         XCTAssertTrue(one?.right?.right?.val == nil)
+    }
+    
+    func testTreeCreation2() {        
+        let tree = TreeNode.from([3, 9, 20, nil, nil, 15, 7])
+        XCTAssertTrue(tree?.left?.val == 9)
+        XCTAssertTrue(tree?.right?.right?.val == 7)
+    }
+    
+    func testBFS1() {
+        let tree = TreeNode.from([1, 2, 3, 4, 5, 6])
+        TreeNode.breathFirstSearch(for: tree)
+        XCTAssertTrue(true)
+    }
+    
+    func testBFS2() {
+        let tree = TreeNode.from([3, 9, 20, nil, nil, 15, 7])
+        TreeNode.breathFirstSearch(for: tree)
+        XCTAssertTrue(true)
+    }
+    
+    func testDFS1() {
+        let tree = TreeNode.from([1, 2, 3, 4, 5, 6])
+        TreeNode.depthFirstSearch(for: tree)
+        XCTAssertTrue(true)
+    }
+    
+    func testDFS2() {
+        let tree = TreeNode.from([3, 9, 20, nil, nil, 15, 7])
+        TreeNode.depthFirstSearch(for: tree)
+        XCTAssertTrue(true)
     }
 }
 

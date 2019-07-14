@@ -21,6 +21,7 @@ class L100_Same_Tree: XCTestCase {
         return a_isSameTree(p.left, q.left) && a_isSameTree(p.right, q.right)
     }
 
+    // iterative
     func b_isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         if p == nil, q == nil {
             return true
