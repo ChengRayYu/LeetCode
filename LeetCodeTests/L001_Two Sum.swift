@@ -38,7 +38,6 @@ class L001_TwoSum: XCTestCase {
         }
         return [-1, -1]
     }
-
     
     func testErrorInput() {
         let a_result = a_twoSum(input: [], target: 4)

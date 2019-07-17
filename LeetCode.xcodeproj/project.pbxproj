@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7102F59722DBB60E007F787E /* L112_Path Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59622DBB60E007F787E /* L112_Path Sum.swift */; };
+		7102F59922DBE3F0007F787E /* L437_Path Sum III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */; };
+		7102F59B22DE3F17007F787E /* L118_Pascal Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59A22DE3F17007F787E /* L118_Pascal Triangle.swift */; };
+		7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */; };
+		7102F59F22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */; };
+		7102F5A122DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */; };
 		7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */; };
 		7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */; };
 		7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */; };
@@ -57,6 +63,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7102F59622DBB60E007F787E /* L112_Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L112_Path Sum.swift"; sourceTree = "<group>"; };
+		7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L437_Path Sum III.swift"; sourceTree = "<group>"; };
+		7102F59A22DE3F17007F787E /* L118_Pascal Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L118_Pascal Triangle.swift"; sourceTree = "<group>"; };
+		7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L119_Pascal Triangle II.swift"; sourceTree = "<group>"; };
+		7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L121_Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L122_Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
 		7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L007_Reverse Integer.swift"; sourceTree = "<group>"; };
 		7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L009_Palindrome Number.swift"; sourceTree = "<group>"; };
 		7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L012_Integer to Roman.swift"; sourceTree = "<group>"; };
@@ -183,6 +195,12 @@
 				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
 				71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */,
 				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
+				7102F59622DBB60E007F787E /* L112_Path Sum.swift */,
+				7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */,
+				7102F59A22DE3F17007F787E /* L118_Pascal Triangle.swift */,
+				7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */,
+				7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */,
+				7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -315,10 +333,12 @@
 				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */,
 				7121A2D122DA403100996954 /* L110_Balanced Binary Tree.swift in Sources */,
+				7102F59922DBE3F0007F787E /* L437_Path Sum III.swift in Sources */,
 				719A2E3A22CE8F4800A635BE /* L070_Climbing Stairs.swift in Sources */,
 				71EB843C22D568680072D039 /* LinkedList.swift in Sources */,
 				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
 				719A2E2C22CC554400A635BE /* L035_Search Insert Position.swift in Sources */,
+				7102F59B22DE3F17007F787E /* L118_Pascal Triangle.swift in Sources */,
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
 				71FC7A4D22D251D900413EDD /* L100_Same Tree.swift in Sources */,
 				71FC7A4922CFDAA200413EDD /* L083_Remove Duplicates from Sorted List.swift in Sources */,
@@ -327,7 +347,9 @@
 				71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */,
 				71864FAD22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift in Sources */,
 				7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */,
+				7102F59722DBB60E007F787E /* L112_Path Sum.swift in Sources */,
 				71FC7A4B22D1466D00413EDD /* L088_Merge Sorted Array.swift in Sources */,
+				7102F59F22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift in Sources */,
 				71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */,
 				7110F98722C4737B00ADC106 /* L013_Roman to Integer.swift in Sources */,
 				719A2E3422CE54B200A635BE /* L066_Plus One.swift in Sources */,
@@ -341,9 +363,11 @@
 				71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */,
 				7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */,
 				7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */,
+				7102F5A122DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift in Sources */,
 				719A2E3022CD507500A635BE /* L053_Maximum Subarray.swift in Sources */,
 				719A2E3822CE73E100A635BE /* L069_Square Root.swift in Sources */,
 				71EB843E22D635800072D039 /* L206_Reverse Linked List.swift in Sources */,
+				7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */,
 				719A2E3622CE5DB000A635BE /* L067_Add Binary.swift in Sources */,
 				7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */,
 				7121A2CB22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift in Sources */,
