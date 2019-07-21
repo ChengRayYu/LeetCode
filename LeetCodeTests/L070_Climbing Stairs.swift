@@ -12,7 +12,7 @@ import XCTest
 
 class L070_Climbing_Stairs: XCTestCase {
     
-    // own solution by combonation
+    // own solution by combination
     typealias Combo = (countOfTwo: Int, length: Int)
     func a_climbStairs(_ n: Int) -> Int {
         

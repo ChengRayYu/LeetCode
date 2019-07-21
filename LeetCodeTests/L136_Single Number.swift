@@ -45,7 +45,23 @@ class L136_Single_Number: XCTestCase {
                 stack.remove(nums[i])
             }
         }
-        return stack.popFirst() ?? Int.min
+        return stack.removeFirst()
+    }
+    
+    // math with stack
+    func c_singleNumber(_ nums: [Int]) -> Int {
+        var uniqueNums: Set<Int> = .init()
+        var uniqueSum = 0
+        var sum = 0
+
+        for i in nums {
+            if !uniqueNums.contains(i) {
+                uniqueNums.insert(i)
+                uniqueSum += i
+            }
+            sum += i
+        }
+        return 2 * uniqueSum - sum
     }
     
     func testA1() {
@@ -67,4 +83,15 @@ class L136_Single_Number: XCTestCase {
         let output = b_singleNumber([4,1,2,1,2])
         XCTAssertTrue(output == 4)
     }
+    
+    func testC1() {
+        let output = c_singleNumber([2,2,1])
+        XCTAssertTrue(output == 1)
+    }
+    
+    func testC2() {
+        let output = c_singleNumber([4,1,2,1,2])
+        XCTAssertTrue(output == 4)
+    }
+
 }

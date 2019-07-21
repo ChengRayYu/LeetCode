@@ -13,6 +13,9 @@
 		7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */; };
 		7102F59F22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */; };
 		7102F5A122DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */; };
+		7102F5A522DF82EC007F787E /* L155_Min Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F5A422DF82EC007F787E /* L155_Min Stack.swift */; };
+		7102F5A922DFA559007F787E /* L168_Excel Sheet Column Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F5A822DFA559007F787E /* L168_Excel Sheet Column Title.swift */; };
+		7102F5AB22DFE75F007F787E /* L169_Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102F5AA22DFE75F007F787E /* L169_Majority Element.swift */; };
 		7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */; };
 		7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */; };
 		7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */; };
@@ -43,6 +46,9 @@
 		71B4D32122C469D0005EBCD2 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4D31722C469D0005EBCD2 /* LeetCode.framework */; };
 		71B4D32822C469D0005EBCD2 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B4D31A22C469D0005EBCD2 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */; };
+		71EA526A22E2625A00CEF5F9 /* L171_Excel Sheet Column Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA526922E2625900CEF5F9 /* L171_Excel Sheet Column Number.swift */; };
+		71EA526C22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA526B22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift */; };
+		71EA526E22E27A4D00CEF5F9 /* L189_Rotate Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA526D22E27A4D00CEF5F9 /* L189_Rotate Array.swift */; };
 		71EB843922D535A70072D039 /* L101_Symmetric Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EB843822D535A70072D039 /* L101_Symmetric Tree.swift */; };
 		71EB843C22D568680072D039 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EB843B22D568680072D039 /* LinkedList.swift */; };
 		71EB843E22D635800072D039 /* L206_Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */; };
@@ -69,6 +75,9 @@
 		7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L119_Pascal Triangle II.swift"; sourceTree = "<group>"; };
 		7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L121_Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L122_Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		7102F5A422DF82EC007F787E /* L155_Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L155_Min Stack.swift"; sourceTree = "<group>"; };
+		7102F5A822DFA559007F787E /* L168_Excel Sheet Column Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L168_Excel Sheet Column Title.swift"; sourceTree = "<group>"; };
+		7102F5AA22DFE75F007F787E /* L169_Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L169_Majority Element.swift"; sourceTree = "<group>"; };
 		7110F98022C46CCA00ADC106 /* L007_Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L007_Reverse Integer.swift"; sourceTree = "<group>"; };
 		7110F98222C46D4900ADC106 /* L009_Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L009_Palindrome Number.swift"; sourceTree = "<group>"; };
 		7110F98422C46DDE00ADC106 /* L012_Integer to Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L012_Integer to Roman.swift"; sourceTree = "<group>"; };
@@ -102,6 +111,9 @@
 		71B4D32022C469D0005EBCD2 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D32722C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L001_Two Sum.swift"; sourceTree = "<group>"; };
+		71EA526922E2625900CEF5F9 /* L171_Excel Sheet Column Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L171_Excel Sheet Column Number.swift"; sourceTree = "<group>"; };
+		71EA526B22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L172_Factorial Trailing Zeroes.swift"; sourceTree = "<group>"; };
+		71EA526D22E27A4D00CEF5F9 /* L189_Rotate Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L189_Rotate Array.swift"; sourceTree = "<group>"; };
 		71EB843822D535A70072D039 /* L101_Symmetric Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L101_Symmetric Tree.swift"; sourceTree = "<group>"; };
 		71EB843B22D568680072D039 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L206_Reverse Linked List.swift"; sourceTree = "<group>"; };
@@ -189,18 +201,24 @@
 				7121A2CE22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift */,
 				7121A2D022DA403100996954 /* L110_Balanced Binary Tree.swift */,
 				7121A2D222DA978300996954 /* L111_Minimum Depth of Binary Tree.swift */,
-				71A0FBDD22C5378D00338690 /* L136_Single Number.swift */,
-				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
-				71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */,
-				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
-				71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */,
-				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
 				7102F59622DBB60E007F787E /* L112_Path Sum.swift */,
-				7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */,
 				7102F59A22DE3F17007F787E /* L118_Pascal Triangle.swift */,
 				7102F59C22DE6315007F787E /* L119_Pascal Triangle II.swift */,
 				7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */,
 				7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */,
+				71A0FBDD22C5378D00338690 /* L136_Single Number.swift */,
+				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
+				71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */,
+				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
+				7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */,
+				71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */,
+				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
+				7102F5A422DF82EC007F787E /* L155_Min Stack.swift */,
+				7102F5A822DFA559007F787E /* L168_Excel Sheet Column Title.swift */,
+				7102F5AA22DFE75F007F787E /* L169_Majority Element.swift */,
+				71EA526922E2625900CEF5F9 /* L171_Excel Sheet Column Number.swift */,
+				71EA526B22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift */,
+				71EA526D22E27A4D00CEF5F9 /* L189_Rotate Array.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -333,7 +351,9 @@
 				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */,
 				7121A2D122DA403100996954 /* L110_Balanced Binary Tree.swift in Sources */,
+				71EA526C22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift in Sources */,
 				7102F59922DBE3F0007F787E /* L437_Path Sum III.swift in Sources */,
+				71EA526E22E27A4D00CEF5F9 /* L189_Rotate Array.swift in Sources */,
 				719A2E3A22CE8F4800A635BE /* L070_Climbing Stairs.swift in Sources */,
 				71EB843C22D568680072D039 /* LinkedList.swift in Sources */,
 				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
@@ -353,8 +373,10 @@
 				71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */,
 				7110F98722C4737B00ADC106 /* L013_Roman to Integer.swift in Sources */,
 				719A2E3422CE54B200A635BE /* L066_Plus One.swift in Sources */,
+				7102F5A922DFA559007F787E /* L168_Excel Sheet Column Title.swift in Sources */,
 				719A2E2E22CC5DF300A635BE /* L038_Count and Say.swift in Sources */,
 				719A2E3222CD89DA00A635BE /* L058_Length of Last Word.swift in Sources */,
+				71EA526A22E2625A00CEF5F9 /* L171_Excel Sheet Column Number.swift in Sources */,
 				71EB843922D535A70072D039 /* L101_Symmetric Tree.swift in Sources */,
 				71EB844022D63AB50072D039 /* BinaryTree.swift in Sources */,
 				71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */,
@@ -367,10 +389,12 @@
 				719A2E3022CD507500A635BE /* L053_Maximum Subarray.swift in Sources */,
 				719A2E3822CE73E100A635BE /* L069_Square Root.swift in Sources */,
 				71EB843E22D635800072D039 /* L206_Reverse Linked List.swift in Sources */,
+				7102F5AB22DFE75F007F787E /* L169_Majority Element.swift in Sources */,
 				7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */,
 				719A2E3622CE5DB000A635BE /* L067_Add Binary.swift in Sources */,
 				7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */,
 				7121A2CB22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift in Sources */,
+				7102F5A522DF82EC007F787E /* L155_Min Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
