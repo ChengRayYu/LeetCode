@@ -31,6 +31,13 @@
 		71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71864FA822CA7C45005566D1 /* L027_Remove Element.swift */; };
 		71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71864FAA22CAB0DB005566D1 /* L028_Implement SubStr.swift */; };
 		71864FAD22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */; };
+		718A1A2A22E4FFC10041CC87 /* L198_House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A2922E4FFC10041CC87 /* L198_House Robber.swift */; };
+		718A1A2C22E618380041CC87 /* L202_Happy Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A2B22E618380041CC87 /* L202_Happy Number.swift */; };
+		718A1A2E22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A2D22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift */; };
+		718A1A3022E7BA430041CC87 /* L204_Count Primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A2F22E7BA430041CC87 /* L204_Count Primes.swift */; };
+		718A1A3222E7F9C30041CC87 /* L217_Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A3122E7F9C30041CC87 /* L217_Contains Duplicate.swift */; };
+		718A1A3422E7FEFB0041CC87 /* L219_Contains Duplicate II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A3322E7FEFB0041CC87 /* L219_Contains Duplicate II.swift */; };
+		718A1A3622E807210041CC87 /* L226_Invert Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A1A3522E807210041CC87 /* L226_Invert Binary Tree.swift */; };
 		719A2E2C22CC554400A635BE /* L035_Search Insert Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E2B22CC554400A635BE /* L035_Search Insert Position.swift */; };
 		719A2E2E22CC5DF300A635BE /* L038_Count and Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E2D22CC5DF300A635BE /* L038_Count and Say.swift */; };
 		719A2E3022CD507500A635BE /* L053_Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A2E2F22CD507500A635BE /* L053_Maximum Subarray.swift */; };
@@ -43,6 +50,8 @@
 		71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDB22C5285400338690 /* L268_Missing Number.swift */; };
 		71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDD22C5378D00338690 /* L136_Single Number.swift */; };
 		71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDF22C6719400338690 /* L021_Merge Two Sorted Lists.swift */; };
+		71B1DA6222E8A4A500C280A6 /* L231_Power of Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */; };
+		71B1DA6422E8B01800C280A6 /* L234_Palindrome Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */; };
 		71B4D32122C469D0005EBCD2 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4D31722C469D0005EBCD2 /* LeetCode.framework */; };
 		71B4D32822C469D0005EBCD2 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B4D31A22C469D0005EBCD2 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */; };
@@ -93,6 +102,13 @@
 		71864FA822CA7C45005566D1 /* L027_Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L027_Remove Element.swift"; sourceTree = "<group>"; };
 		71864FAA22CAB0DB005566D1 /* L028_Implement SubStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L028_Implement SubStr.swift"; sourceTree = "<group>"; };
 		71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L459_Repeated Substring Pattern.swift"; sourceTree = "<group>"; };
+		718A1A2922E4FFC10041CC87 /* L198_House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L198_House Robber.swift"; sourceTree = "<group>"; };
+		718A1A2B22E618380041CC87 /* L202_Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L202_Happy Number.swift"; sourceTree = "<group>"; };
+		718A1A2D22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L203_Remove Linked List Elements.swift"; sourceTree = "<group>"; };
+		718A1A2F22E7BA430041CC87 /* L204_Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L204_Count Primes.swift"; sourceTree = "<group>"; };
+		718A1A3122E7F9C30041CC87 /* L217_Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L217_Contains Duplicate.swift"; sourceTree = "<group>"; };
+		718A1A3322E7FEFB0041CC87 /* L219_Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L219_Contains Duplicate II.swift"; sourceTree = "<group>"; };
+		718A1A3522E807210041CC87 /* L226_Invert Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L226_Invert Binary Tree.swift"; sourceTree = "<group>"; };
 		719A2E2B22CC554400A635BE /* L035_Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L035_Search Insert Position.swift"; sourceTree = "<group>"; };
 		719A2E2D22CC5DF300A635BE /* L038_Count and Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L038_Count and Say.swift"; sourceTree = "<group>"; };
 		719A2E2F22CD507500A635BE /* L053_Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L053_Maximum Subarray.swift"; sourceTree = "<group>"; };
@@ -105,6 +121,8 @@
 		71A0FBDB22C5285400338690 /* L268_Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L268_Missing Number.swift"; sourceTree = "<group>"; };
 		71A0FBDD22C5378D00338690 /* L136_Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L136_Single Number.swift"; sourceTree = "<group>"; };
 		71A0FBDF22C6719400338690 /* L021_Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L021_Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L231_Power of Two.swift"; sourceTree = "<group>"; };
+		71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L234_Palindrome Linked List.swift"; sourceTree = "<group>"; };
 		71B4D31722C469D0005EBCD2 /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D31A22C469D0005EBCD2 /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		71B4D31B22C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -207,18 +225,27 @@
 				7102F59E22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift */,
 				7102F5A022DEAE55007F787E /* L122_Best Time to Buy and Sell Stock II.swift */,
 				71A0FBDD22C5378D00338690 /* L136_Single Number.swift */,
-				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
-				71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */,
-				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
-				7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */,
-				71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */,
-				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
 				7102F5A422DF82EC007F787E /* L155_Min Stack.swift */,
+				7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */,
 				7102F5A822DFA559007F787E /* L168_Excel Sheet Column Title.swift */,
 				7102F5AA22DFE75F007F787E /* L169_Majority Element.swift */,
 				71EA526922E2625900CEF5F9 /* L171_Excel Sheet Column Number.swift */,
 				71EA526B22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift */,
 				71EA526D22E27A4D00CEF5F9 /* L189_Rotate Array.swift */,
+				718A1A2922E4FFC10041CC87 /* L198_House Robber.swift */,
+				718A1A2B22E618380041CC87 /* L202_Happy Number.swift */,
+				718A1A2D22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift */,
+				718A1A2F22E7BA430041CC87 /* L204_Count Primes.swift */,
+				71EB843D22D635800072D039 /* L206_Reverse Linked List.swift */,
+				71A0FBDB22C5285400338690 /* L268_Missing Number.swift */,
+				7102F59822DBE3F0007F787E /* L437_Path Sum III.swift */,
+				71864FAC22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift */,
+				71A0FBD922C5217F00338690 /* L704_Binary Search.swift */,
+				718A1A3122E7F9C30041CC87 /* L217_Contains Duplicate.swift */,
+				718A1A3322E7FEFB0041CC87 /* L219_Contains Duplicate II.swift */,
+				718A1A3522E807210041CC87 /* L226_Invert Binary Tree.swift */,
+				71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */,
+				71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -348,18 +375,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B1DA6222E8A4A500C280A6 /* L231_Power of Two.swift in Sources */,
+				718A1A3422E7FEFB0041CC87 /* L219_Contains Duplicate II.swift in Sources */,
 				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */,
 				7121A2D122DA403100996954 /* L110_Balanced Binary Tree.swift in Sources */,
 				71EA526C22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift in Sources */,
 				7102F59922DBE3F0007F787E /* L437_Path Sum III.swift in Sources */,
 				71EA526E22E27A4D00CEF5F9 /* L189_Rotate Array.swift in Sources */,
+				718A1A2C22E618380041CC87 /* L202_Happy Number.swift in Sources */,
 				719A2E3A22CE8F4800A635BE /* L070_Climbing Stairs.swift in Sources */,
 				71EB843C22D568680072D039 /* LinkedList.swift in Sources */,
 				71A0FBDA22C5217F00338690 /* L704_Binary Search.swift in Sources */,
 				719A2E2C22CC554400A635BE /* L035_Search Insert Position.swift in Sources */,
 				7102F59B22DE3F17007F787E /* L118_Pascal Triangle.swift in Sources */,
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
+				718A1A3622E807210041CC87 /* L226_Invert Binary Tree.swift in Sources */,
 				71FC7A4D22D251D900413EDD /* L100_Same Tree.swift in Sources */,
 				71FC7A4922CFDAA200413EDD /* L083_Remove Duplicates from Sorted List.swift in Sources */,
 				7121A2CF22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift in Sources */,
@@ -370,6 +401,7 @@
 				7102F59722DBB60E007F787E /* L112_Path Sum.swift in Sources */,
 				71FC7A4B22D1466D00413EDD /* L088_Merge Sorted Array.swift in Sources */,
 				7102F59F22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift in Sources */,
+				718A1A2E22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift in Sources */,
 				71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */,
 				7110F98722C4737B00ADC106 /* L013_Roman to Integer.swift in Sources */,
 				719A2E3422CE54B200A635BE /* L066_Plus One.swift in Sources */,
@@ -377,11 +409,14 @@
 				719A2E2E22CC5DF300A635BE /* L038_Count and Say.swift in Sources */,
 				719A2E3222CD89DA00A635BE /* L058_Length of Last Word.swift in Sources */,
 				71EA526A22E2625A00CEF5F9 /* L171_Excel Sheet Column Number.swift in Sources */,
+				718A1A3222E7F9C30041CC87 /* L217_Contains Duplicate.swift in Sources */,
 				71EB843922D535A70072D039 /* L101_Symmetric Tree.swift in Sources */,
 				71EB844022D63AB50072D039 /* BinaryTree.swift in Sources */,
+				718A1A2A22E4FFC10041CC87 /* L198_House Robber.swift in Sources */,
 				71A0FBDE22C5378D00338690 /* L136_Single Number.swift in Sources */,
 				7121A2D322DA978300996954 /* L111_Minimum Depth of Binary Tree.swift in Sources */,
 				7110F98322C46D4900ADC106 /* L009_Palindrome Number.swift in Sources */,
+				718A1A3022E7BA430041CC87 /* L204_Count Primes.swift in Sources */,
 				71A0FBDC22C5285400338690 /* L268_Missing Number.swift in Sources */,
 				7110F98522C46DDE00ADC106 /* L012_Integer to Roman.swift in Sources */,
 				7110F98122C46CCA00ADC106 /* L007_Reverse Integer.swift in Sources */,
@@ -390,6 +425,7 @@
 				719A2E3822CE73E100A635BE /* L069_Square Root.swift in Sources */,
 				71EB843E22D635800072D039 /* L206_Reverse Linked List.swift in Sources */,
 				7102F5AB22DFE75F007F787E /* L169_Majority Element.swift in Sources */,
+				71B1DA6422E8B01800C280A6 /* L234_Palindrome Linked List.swift in Sources */,
 				7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */,
 				719A2E3622CE5DB000A635BE /* L067_Add Binary.swift in Sources */,
 				7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */,

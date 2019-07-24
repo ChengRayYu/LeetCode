@@ -28,7 +28,6 @@ class L206_Reverse_Linked_List: XCTestCase {
     
     // recursive reverse
     func b_reversed(_ node: ListNode?) -> ListNode? {
-        let node: ListNode? = node
         return reverseList(node, to: nil)
     }
     
