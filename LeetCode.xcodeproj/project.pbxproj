@@ -23,6 +23,7 @@
 		7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */; };
 		7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */; };
 		7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */; };
+		711EF7DC22F39F2E002A9961 /* L283_Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EF7DB22F39F2E002A9961 /* L283_Move Zeroes.swift */; };
 		7121A2CB22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121A2CA22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift */; };
 		7121A2CF22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121A2CE22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift */; };
 		7121A2D122DA403100996954 /* L110_Balanced Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121A2D022DA403100996954 /* L110_Balanced Binary Tree.swift */; };
@@ -52,6 +53,13 @@
 		71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0FBDF22C6719400338690 /* L021_Merge Two Sorted Lists.swift */; };
 		71B1DA6222E8A4A500C280A6 /* L231_Power of Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */; };
 		71B1DA6422E8B01800C280A6 /* L234_Palindrome Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */; };
+		71B1DA6822E8D5E500C280A6 /* L242_Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6722E8D5E500C280A6 /* L242_Valid Anagram.swift */; };
+		71B1DA6A22E943D000C280A6 /* L263_Ugly Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6922E943D000C280A6 /* L263_Ugly Number.swift */; };
+		71B1DA6C22E95A4800C280A6 /* L303_Range Sum Query - Immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6B22E95A4800C280A6 /* L303_Range Sum Query - Immutable.swift */; };
+		71B1DA6E22E9FE0100C280A6 /* L344_Reverse String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6D22E9FE0100C280A6 /* L344_Reverse String.swift */; };
+		71B1DA7022EA10A300C280A6 /* L345_Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA6F22EA10A300C280A6 /* L345_Reverse Vowels of a String.swift */; };
+		71B1DA7222EA1E1E00C280A6 /* L349_Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA7122EA1E1E00C280A6 /* L349_Intersection of Two Arrays.swift */; };
+		71B1DA7422EA643D00C280A6 /* L367_Valid Perfect Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DA7322EA643D00C280A6 /* L367_Valid Perfect Square.swift */; };
 		71B4D32122C469D0005EBCD2 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B4D31722C469D0005EBCD2 /* LeetCode.framework */; };
 		71B4D32822C469D0005EBCD2 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B4D31A22C469D0005EBCD2 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4D33122C46A1B005EBCD2 /* L001_Two Sum.swift */; };
@@ -94,6 +102,7 @@
 		7110F98822C4740200ADC106 /* L014_Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L014_Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		7110F98A22C4749E00ADC106 /* L020_Valid Parantheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L020_Valid Parantheses.swift"; sourceTree = "<group>"; };
 		7110F98C22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L167_Two Sum_Sorted Input.swift"; sourceTree = "<group>"; };
+		711EF7DB22F39F2E002A9961 /* L283_Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L283_Move Zeroes.swift"; sourceTree = "<group>"; };
 		7121A2CA22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L104_Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		7121A2CE22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L107_Binary Tree Level Order Traversal II.swift"; sourceTree = "<group>"; };
 		7121A2D022DA403100996954 /* L110_Balanced Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L110_Balanced Binary Tree.swift"; sourceTree = "<group>"; };
@@ -123,6 +132,13 @@
 		71A0FBDF22C6719400338690 /* L021_Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L021_Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 		71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L231_Power of Two.swift"; sourceTree = "<group>"; };
 		71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L234_Palindrome Linked List.swift"; sourceTree = "<group>"; };
+		71B1DA6722E8D5E500C280A6 /* L242_Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L242_Valid Anagram.swift"; sourceTree = "<group>"; };
+		71B1DA6922E943D000C280A6 /* L263_Ugly Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L263_Ugly Number.swift"; sourceTree = "<group>"; };
+		71B1DA6B22E95A4800C280A6 /* L303_Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L303_Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
+		71B1DA6D22E9FE0100C280A6 /* L344_Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L344_Reverse String.swift"; sourceTree = "<group>"; };
+		71B1DA6F22EA10A300C280A6 /* L345_Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L345_Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
+		71B1DA7122EA1E1E00C280A6 /* L349_Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L349_Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
+		71B1DA7322EA643D00C280A6 /* L367_Valid Perfect Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L367_Valid Perfect Square.swift"; sourceTree = "<group>"; };
 		71B4D31722C469D0005EBCD2 /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4D31A22C469D0005EBCD2 /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		71B4D31B22C469D0005EBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -246,6 +262,14 @@
 				718A1A3522E807210041CC87 /* L226_Invert Binary Tree.swift */,
 				71B1DA6122E8A4A500C280A6 /* L231_Power of Two.swift */,
 				71B1DA6322E8B01800C280A6 /* L234_Palindrome Linked List.swift */,
+				71B1DA6722E8D5E500C280A6 /* L242_Valid Anagram.swift */,
+				71B1DA6922E943D000C280A6 /* L263_Ugly Number.swift */,
+				71B1DA6B22E95A4800C280A6 /* L303_Range Sum Query - Immutable.swift */,
+				71B1DA6D22E9FE0100C280A6 /* L344_Reverse String.swift */,
+				71B1DA6F22EA10A300C280A6 /* L345_Reverse Vowels of a String.swift */,
+				71B1DA7122EA1E1E00C280A6 /* L349_Intersection of Two Arrays.swift */,
+				71B1DA7322EA643D00C280A6 /* L367_Valid Perfect Square.swift */,
+				711EF7DB22F39F2E002A9961 /* L283_Move Zeroes.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -376,10 +400,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B1DA6222E8A4A500C280A6 /* L231_Power of Two.swift in Sources */,
+				71B1DA6E22E9FE0100C280A6 /* L344_Reverse String.swift in Sources */,
+				71B1DA6A22E943D000C280A6 /* L263_Ugly Number.swift in Sources */,
 				718A1A3422E7FEFB0041CC87 /* L219_Contains Duplicate II.swift in Sources */,
 				71864FA922CA7C45005566D1 /* L027_Remove Element.swift in Sources */,
 				71864FAB22CAB0DB005566D1 /* L028_Implement SubStr.swift in Sources */,
 				7121A2D122DA403100996954 /* L110_Balanced Binary Tree.swift in Sources */,
+				71B1DA7422EA643D00C280A6 /* L367_Valid Perfect Square.swift in Sources */,
 				71EA526C22E2772A00CEF5F9 /* L172_Factorial Trailing Zeroes.swift in Sources */,
 				7102F59922DBE3F0007F787E /* L437_Path Sum III.swift in Sources */,
 				71EA526E22E27A4D00CEF5F9 /* L189_Rotate Array.swift in Sources */,
@@ -392,9 +419,11 @@
 				7110F98922C4740200ADC106 /* L014_Longest Common Prefix.swift in Sources */,
 				718A1A3622E807210041CC87 /* L226_Invert Binary Tree.swift in Sources */,
 				71FC7A4D22D251D900413EDD /* L100_Same Tree.swift in Sources */,
+				71B1DA7222EA1E1E00C280A6 /* L349_Intersection of Two Arrays.swift in Sources */,
 				71FC7A4922CFDAA200413EDD /* L083_Remove Duplicates from Sorted List.swift in Sources */,
 				7121A2CF22D7A85700996954 /* L107_Binary Tree Level Order Traversal II.swift in Sources */,
 				71864FA722CA5978005566D1 /* L026_Remove Duplicates from Sorted Array.swift in Sources */,
+				71B1DA6C22E95A4800C280A6 /* L303_Range Sum Query - Immutable.swift in Sources */,
 				71B4D33222C46A1B005EBCD2 /* L001_Two Sum.swift in Sources */,
 				71864FAD22CAC2BB005566D1 /* L459_Repeated Substring Pattern.swift in Sources */,
 				7110F98D22C4751400ADC106 /* L167_Two Sum_Sorted Input.swift in Sources */,
@@ -402,6 +431,7 @@
 				71FC7A4B22D1466D00413EDD /* L088_Merge Sorted Array.swift in Sources */,
 				7102F59F22DE866C007F787E /* L121_Best Time to Buy and Sell Stock.swift in Sources */,
 				718A1A2E22E7AF7E0041CC87 /* L203_Remove Linked List Elements.swift in Sources */,
+				71B1DA6822E8D5E500C280A6 /* L242_Valid Anagram.swift in Sources */,
 				71A0FBE022C6719400338690 /* L021_Merge Two Sorted Lists.swift in Sources */,
 				7110F98722C4737B00ADC106 /* L013_Roman to Integer.swift in Sources */,
 				719A2E3422CE54B200A635BE /* L066_Plus One.swift in Sources */,
@@ -409,6 +439,7 @@
 				719A2E2E22CC5DF300A635BE /* L038_Count and Say.swift in Sources */,
 				719A2E3222CD89DA00A635BE /* L058_Length of Last Word.swift in Sources */,
 				71EA526A22E2625A00CEF5F9 /* L171_Excel Sheet Column Number.swift in Sources */,
+				711EF7DC22F39F2E002A9961 /* L283_Move Zeroes.swift in Sources */,
 				718A1A3222E7F9C30041CC87 /* L217_Contains Duplicate.swift in Sources */,
 				71EB843922D535A70072D039 /* L101_Symmetric Tree.swift in Sources */,
 				71EB844022D63AB50072D039 /* BinaryTree.swift in Sources */,
@@ -427,6 +458,7 @@
 				7102F5AB22DFE75F007F787E /* L169_Majority Element.swift in Sources */,
 				71B1DA6422E8B01800C280A6 /* L234_Palindrome Linked List.swift in Sources */,
 				7102F59D22DE6315007F787E /* L119_Pascal Triangle II.swift in Sources */,
+				71B1DA7022EA10A300C280A6 /* L345_Reverse Vowels of a String.swift in Sources */,
 				719A2E3622CE5DB000A635BE /* L067_Add Binary.swift in Sources */,
 				7110F98B22C4749E00ADC106 /* L020_Valid Parantheses.swift in Sources */,
 				7121A2CB22D6990B00996954 /* L104_Maximum Depth of Binary Tree.swift in Sources */,
