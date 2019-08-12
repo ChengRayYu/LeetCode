@@ -53,12 +53,12 @@ class L070_Climbing_Stairs: XCTestCase {
     // dynamic
     func c_climbStairs(_ n: Int) -> Int {
         
-        guard n > 1 else { return n }
+        if n < 3 { return n }
         var wayOfStairs: [Int] =  [Int](repeating: 0, count: n + 1)
         wayOfStairs[0] = 0
         wayOfStairs[1] = 1
         wayOfStairs[2] = 2
-        
+
         for i in 3...n {
             wayOfStairs[i] = wayOfStairs[i - 1] + wayOfStairs[i - 2]
         }

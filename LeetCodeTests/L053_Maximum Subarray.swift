@@ -22,7 +22,7 @@ class L053_Maximum_Subarray: XCTestCase {
 
         for i in 1..<nums.count {
             
-            // if nums[i] is bigger than the sum if num[i] and previous sum, reset section and set sectionSum equals nums[i]
+            // if nums[i] is bigger than the sum of num[i] and previous sum, reset section and set sectionSum equals nums[i]
             sectionSum = Swift.max(sectionSum + nums[i], nums[i])
 
             // assign sectionSum to max if bigger
